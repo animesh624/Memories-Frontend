@@ -98,7 +98,7 @@ const MyNotes = ({ search }) => {
                     <Badge pill bg="success">
                       Category - {note.category}
                     </Badge>
-                    <img src={note.pic} alt="Unable to Load Pic" style={{ width: '200px', height: '150px',paddingLeft: '20px' }} />
+                    <img src={note.pic} alt="Unable to Load Pic" style={{ width: '200px', height: '150px', paddingLeft: '20px' }} />
                     <blockquote className="blockquote mb-0">
                       <p>{note.content}</p>
                       <footer className="blockquote-footer">

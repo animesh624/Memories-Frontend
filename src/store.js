@@ -26,7 +26,7 @@ const initialState = {
   userLogin: { userInfo: userInfoFromStorage },
 };
 
-const middleware = [thunk];
+const middleware = [thunk];  //thunk is a middleware that allows for asynchronous actions in Redux.
 
 const store = createStore(
   reducer,
